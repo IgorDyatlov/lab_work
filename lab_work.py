@@ -43,3 +43,7 @@ def pymorphying(filename):
                 loop.append(original_word)
                 loop.sort()
     print(dictionary)
+    
+if __name__ == '__main__':
+    filename = str(input('Введите название файла или путь к файлу (без кавычек):'))
+    pymorphying(filename)
